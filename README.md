@@ -1,4 +1,4 @@
-网页预览：
+网页预览：http://bobolife.xyz/cv-of-mine/dist/
 
 ## 开发模式
 
