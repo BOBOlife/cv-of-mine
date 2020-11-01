@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>个人简历</title>
+    <style>* {
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #eee;
+        margin: 20px 0;
+      }
+
+      article {
+        width: 21cm;
+        min-height: 29.7cm;
+        background: white;
+        margin: 0 auto;
+        overflow: auto;
+        padding: 1em;
+      }</style>
+    <style media="print">body {
+        margin: 0;
+      }
+
+      .page2 {
+        page-break-before: always;
+        margin-top: 30px;
+      }</style>
+    <style>p {
+        margin: 0.3em 0;
+      }
+
+      h1 {
+        font-size: 25px;
+        margin-top: 0;
+      }
+
+      h4,
+      h5,
+      h6 {
+        font-weight: normal;
+      }
+
+      ol,
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      strong {
+        font-weight: normal;
+        color: #f60;
+      }
+
+      a {
+        color: #999;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      p,
+      li {
+        color: #666;
+      }
+
+      strong {
+        font-weight: normal;
+      }
+
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+      }
+      h4{
+        display: inline;
+        font-weight: bolder;
+      }
+
+      .bio {
+        position: relative;
+      }
+
+      .bio img {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }</style>
+
+    <style>.projects {
+      }
+
+      .projects p {
+        color: #666;
+      }
+
+      .projects strong {
+        color: #f60;
+      }
+
+      .projects > ol {
+        margin-top: 0;
+        list-style-position: inside;
+        padding: 0;
+      }
+
+      .projects > ol > li {
+        margin-bottom: 24px;
+      }
+
+      .projects > ol > li > header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .projects > ol > li h3 {
+        display: inline-block;
+      }</style>
+    <style>.skills {
+      }
+
+      #skills {
+        width: 500px;
+        height: 270px;
+      }
+      @media print {
+        #skills {
+          display: none;
+        }
+      }
+
+      .skills > .wrapper {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .skills > .wrapper > :first-child {
+        margin-right: 24px;
+      }
+
+      .skills > .wrapper > #skills {
+      }
+
+      .skills > .wrapper > ul {
+        color: #666;
+      }
+
+      .skills > .wrapper strong {
+        color: #f60;
+      }
+
+      .skills > .wrapper > ul > li {
+        line-height: 1.2;
+        margin-bottom: 8px;
+      }</style>
+    <style>.openSource {
+      }
+
+      .openSource > h2 {
+      }
+
+      .openSource header img {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      .openSource > ul {
+      }
+
+      .openSource > ul > li {
+        margin-bottom: 24px;
+      }
+
+      .openSource header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .openSource h3 {
+      }</style>
+    <style>.jobs {
+      }
+
+      .jobs > h2 {
+      }
+
+      .jobs > ol {
+      }
+
+      .jobs > ol > li {
+        margin: 12px 0;
+      }
+
+      .jobs header {
+        display: flex;
+        color: #666;
+        margin-bottom: 12px;
+      }
+
+      .jobs header > h3 {
+        font-size: 18px;
+        color: #333;
+      }
+
+      .jobs header > h4 {
+        margin-left: 1em;
+        font-size: 18px;
+      }
+
+      .jobs header > span {
+        font-size: 18px;
+        margin-left: auto;
+      }</style>
+
+    <style>@media (max-width: 500px) {
+        body {
+          margin: 0;
+        }
+
+        article {
+          width: auto;
+          height: auto;
+        }
+
+        .bio img {
+          display: none;
+        }
+
+        .skills .wrapper {
+          flex-direction: column;
+        }
+
+        #skills {
+          width: auto;
+        }
+       
+        .jobs header {
+          flex-direction: column;
+        }
+        .jobs header > h3,
+        .jobs header > h4,
+        .jobs header > span {
+          margin: 0;
+        }
+        .imgSize {
+          display: none;
+        }
+      }</style>
+  </head>
+
+  <body>
+    <article>
+      <section class="bio">
+        <h1>王波</h1>
+        <p>男 | 24岁 | 江苏盐城</p>
+        <p>手机/微信：188-5273-4557</p>
+        <p>邮箱：bbw1996@qq.com</p>
+        <p>
+          博客笔记：<a href="https://juejin.im/user/659362709248360" style="color: rgb(91, 150, 123)">https://juejin.im/user/659362709248360</a>
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/BOBOlife" style="color: rgb(91, 150, 123)">https://github.com/BOBOlife</a>
+        </p>
+      </section>
+
+      <section class="education">
+        <h2>教育经历</h2>
+        <p>
+          <span><time>2015年</time>~<time>2019年</time></span>
+          扬州大学 本科 电子信息工程专业
+        </p>
+      </section>
+      <section class="skills">
+        <h2>专业技能</h2>
+        <div class="wrapper">
+          <ul>
+            <li>
+              熟悉页面制作技巧，能够使用HTML(5)标签编写<strong>语义化</strong>的页面，能将设计稿<strong>完美还原</strong>
+            </li>
+            <li>
+              熟练使用CSS/<strong>SCSS/SASS</strong>，文档流，盒模型，<strong>flex/grid</strong>布局定位
+            </li>
+            <li>
+              熟悉<strong>前后端分离</strong>技术，包括
+              DOM、AJAX、跨域、闭包（Closure）、<strong>原型链</strong>、this、面向对象等
+            </li>
+            <li>
+              熟练掌握 <strong>Vue全家桶</strong>的使用，包括
+              VueCli、VueRouter、<strong>Vuex</strong> 等
+            </li>
+            <li>
+              熟悉 <strong>React全家桶</strong>的使用，包括
+              create-react-app、ReactRouter、<strong>Redux</strong>、常用<strong>Hooks</strong>
+              API的使用等
+            </li>
+            <li>熟悉 ES6，包括 let / const / Promise / await / 析构赋值</li>
+            <li>
+              了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的
+            </li>
+            <li>
+              了解<strong>前端模块化</strong>，以及<strong>Webpack 的配置和优化</strong>
+            </li>
+            <li>
+              熟悉<strong>Yarn</strong> & <strong>Npm</strong> &
+              <strong>Git</strong>,掌握Git/GitHub工作部署流程
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="projects">
+        <h2>项目经历</h2>
+        <ol>
+          <li>
+            <header>
+              <h3>Tears-UI</h3>
+              <span>
+                <a href="https://github.com/BOBOlife/gulu-test">源码链接</a>
+                <a href="http://bobowanglife.gitee.io/gulu-test/">项目预览</a>
+              </span>
+            </header>
+            <p>
+              </p><h4>技术栈：</h4>Vue.js/SCSS/VuePress/ES6/Parcel /Chai.js/Mocha/TravisCI
+            <p></p>
+            <p>
+              </p><h4>项目介绍：</h4>该项目是参照Framework7 、Ant Design 、Element UI
+              、iView等UI库的思路，做的一个基于Vue的简易<strong>UI组件库</strong>，目前已支持按钮、输入框、栅格、布局、Toast、Tabs、Popover、手风琴等组件。每个组件均经历从<strong>需求分析</strong>到<strong>Mocha单元测试</strong>，并用<strong>TravisCI实现持续集成</strong>，最终以VuePress为基础制作<strong>官方文档</strong>，发布于npmjs.org。完成该项目使我对Vue的常用特征更加熟悉，同时提升了自己对<strong>前端工程化流程以及单元测试重要性的深刻理解</strong>，进一步加深了对开源文化的了解。
+            <p></p>
+           
+          </li>
+          <li>
+            <header>
+              <h3>口袋生活</h3>
+              <span>
+                <a href="https://gitee.com/bobowanglife/packet-life-vue">源码链接</a>
+                <a href="http://bobowanglife.gitee.io/packet-life-website">项目预览</a>
+              </span>
+            </header>
+            <p>
+              </p><h4>技术栈：</h4>TypeScript/Vue/VueCLI/VueRouter/Vuex /ES6/SCSS/Echarts/Webpack /localStorage
+            <p></p>
+            <p>
+              </p><h4>项目介绍：</h4>口袋生活是一款极简的记账应用，也是一款基于Vue、VueRouter、Vuex、<strong>Typescript</strong>的单页面应用。由本人独立设计及实现，期间遇到多种Webpack、TypeScript方面的问题，通过查阅资料得以解决。项目源码几乎完全用TypeScript实现，用到了<strong>装饰器</strong>等语法。
+            <p></p>
+            <p>
+              这是我从自己的需求出发，设计出的极简记账应用，特点是快速记账，
+              而且可以通过<strong>图表</strong>查看自己的消费习惯。
+            </p>
+           
+            <p style="text-align: center">
+              <img src="/jz.bb80145e.png" alt="记账二维码" class="imgSize" width="120px">
+            </p>
+          </li>
+          <li>
+            <header>
+              <h3>七度网（公司未上线）</h3>
+            </header>
+            <p></p><h4>技术栈:</h4>Vue/VueCLI/VueRouter/Vuex/Vant /axios/Webpack<p></p>
+            <p>
+              </p><h4>项目介绍：</h4>此项目分成移动端和PC端，也可以以理解为两个项目。项目均使用<strong>Vue全家桶</strong>进行开发。
+            <p></p>
+            <p>
+              </p><h4>个人职责：</h4>独立负责移动端的开发，主要以展示页面为主，使用Vue，VueRouter，Vuex ,<strong>Vant UI</strong>等技术和库进行开发，实现搜索，筛选，下载，markdown编辑，发布等等功能；PC端和他人协同开发，负责主要页面的开发，首页，标签页，详情页，排行页等
+            <p></p>
+          </li>
+          <li>
+            <header>
+              <h3>auth后台管理系统（公司项目）</h3>
+            </header>
+            <p></p><h4>技术栈：</h4>jQuery/Bootstrap/ajax/Lay-ui<p></p>
+            <p>
+              </p><h4>项目介绍</h4>：该项目为公司内部使用的一套后台管理系统，主要用于向前台提交展示数据，项目使用<strong>jQuery</strong>，<strong>Bootstrap</strong>和<strong>Lay UI</strong>进行开发。
+            <p></p>
+            <p>
+              </p><h4>个人职责：</h4>在该项目中我主要负责发布内容的页面的开发以及优化工作，同时跟进项目上线后的问题以及修复。
+            <p></p>
+          </li>
+         
+        </ol>
+      </section>
+      <section class="openSource">
+        <h2>开源项目</h2>
+        <ul>
+          <li>
+            <header>
+              <h3>自己写的 DOM 库</h3>
+              <a href="https://github.com/BOBOlife/dom-demo-01/blob/master/src/dom.js">源码链接</a>
+            </header>
+            <p>这是我在学习原生DOM的时候写的一个<strong>DOM库</strong></p>
+            <p>
+              实现了元素选择、元素创建、监听/取消事件、样式获取/设置、遍历元素数组并处理，<strong>添加包裹元素</strong>等等常见功能,加深了对<strong>DOM操作和封装</strong>的理解。
+            </p>
+          </li>
+          <li>
+            <header>
+              <h3>会动的皮卡丘</h3>
+              <span>
+                <a href="https://github.com/BOBOlife/auto-pikachu">源码链接</a>
+                <a href="http://bobolife.xyz/auto-pikachu/dist/test.html">项目预览</a>
+              </span>
+            </header>
+            <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
+            <p>
+             此项目是一个使用<strong>纯原生JS</strong>开发的，动态显示CSS画一个皮卡丘过程的小作品。该作品主要思路是通过<strong>间隔计时器遍历预设在preview文件内代码</strong>，将其一个个显示在页面上，并在style标签上作同样处理，以使代码CSS生效。此外实现了<strong>调速</strong>，<strong>暂停</strong>，<strong>播放</strong>的功能。
+            </p>
+          </li>
+          <li>
+            <header>
+              <h3>简易画板</h3>
+              <span>
+                <a href="https://gitee.com/bobowanglife/drawing-board">源码链接</a>
+                <a href="http://bobowanglife.gitee.io/drawing-board/build/">项目预览</a>
+              </span>
+            </header>
+            <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
+            <p>
+              是一个使用<strong>纯原生JS</strong>开发的，主要利用HTML5的<strong>Canvas API</strong>,是我在学习原生JS以及Canvas过程中开发的小工具。其提供在<strong>PC及手机端</strong>在线画画，笔刷<strong>调色</strong>，画作<strong>清除</strong>等功能，并支持下载，使用体验丝滑流畅。
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="jobs">
+        <h2>工作经历</h2>
+        <ol>
+          <li>
+            <header>
+              <h3>上海游讯信息科技有限公司</h3>
+              <h4>前端开发工程师</h4>
+              <span><time>2020年4月</time>~<time>2020年7月</time></span>
+            </header>
+            <ul>
+              <li><h4>公司项目：</h4>七度网（移动端+PC端），auth后台管理系统</li>
+              <li>
+                <h4>个人职责：</h4>独立负责公司游戏网站的移动端的页面开发,协同开发PC端，与后台协同开发auth后台管理系统，并成功上线，目前已投入使用；与此同时，积极参加公司活动，与同事进行技术交流与分享
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section class="others">
+        <h2>个人评价</h2>
+        <ul>
+          <li>对软件设计（Figma）有经验，编码有着良好的协管和自我解决问题的能力</li>
+          <li>有着良好的团队协作能力，性格上稳重并能吃苦耐劳</li>
+          <li>良好的公共关系意识，善于沟通，具备一定的活动策划和组织协调能力</li>
+          <li>良好的心态和责任感，勇于面对变化和挑战</li>
+        </ul>
+      </section>
+    </article>
+  </body>
+</html>
