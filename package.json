@@ -1,5 +1,20 @@
 {
+  "name": "resume-of-mine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "cssnano": "^4.1.10"
+    "cssnano": "^5.1.14",
+    "terser": "^5.16.1"
+  },
+  "dependencies": {
+    "vite": "^3.2.5"
   }
 }
